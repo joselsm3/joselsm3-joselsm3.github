@@ -1,0 +1,300 @@
+body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Poppins';
+    overflow-y: auto;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #00694F;
+}
+
+.logo {
+    width: 100px;
+}
+
+.escolas {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.escola {
+    width: 20rem;
+    height: 3rem;
+    background-color: #00694F;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.escola a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.add_escola {
+    background: none;
+    border: none;
+}
+
+footer {
+    width: 20rem;
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 14px;
+    border-radius: 60px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 -0.15rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.feed {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pesquisa_div {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pesquisa {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #F2F2F2;
+    padding: 10px;
+}
+
+.post {
+    background-color: #F2F2F2;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.userinfo_chat_img_username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+
+.mensagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.mensagem_propria, .mensagem_outro {
+    padding: 0.8rem;
+    font-size: 0.875rem; /* Texto relativo */
+    border-radius: 0.5rem; /* Bordas arredondadas com rem */
+    max-width: 70%;
+    margin-bottom: 0.75rem;
+    word-wrap: break-word;
+}
+
+.mensagem_propria {
+    background-color: #23CAA1;
+    align-self: flex-end;
+}
+
+.mensagem_outro {
+    background-color: #F2F2F2;
+    align-self: flex-start;
+}
+
+.pergunta {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 12px 0;
+}
+
+.formatos div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formatos h1 {
+    margin: 1rem 0;
+}
+
+.formatos div a {
+    margin-bottom: 1rem;
+}
+
+.recentes_formatos {
+    height: 8rem;
+    padding: 1rem;
+    background-color: #F2F2F2;
+}
+
+.filtro_formatos {
+    background-color: #e0e0e0;
+    height: 2rem;
+    padding: 0.2rem;
+    border-radius: 60px;
+}
+
+.filtro_formatos button {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+
+}
+
+.linhas {
+    margin-top: 1.5rem;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.linhas div {
+    margin-top: 0.2rem;
+    display: flex;
+}
+
+.caixa{
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    width: 10rem;
+    height: 7rem;
+    margin-right: 0.5rem;
+}
+
+.novo{
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    color: #00694F;
+    background-color:#F2F2F2 ;
+}
+
+.opcoes_criar {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.criar_buttons {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.criar_buttons button {
+    width: 7rem;
+    height: 3rem;
+    margin: 0 0.5rem;
+    background-color: #00694F;
+    color: #fff;
+    border: none;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.criar_buttons button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.novo_button {
+    width: 100%;
+    height: 3rem;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    border: none;
+    color: #00694F;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.digitar {
+    width: 100%;
+    max-width: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 7rem;
+}
+
+.digitar button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: #00694F;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.input {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #F2F2F2;
+    padding: 10px;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.8rem;
+    cursor: pointer;
+}
+
+.icon_user {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin: 0 1rem;
+}
