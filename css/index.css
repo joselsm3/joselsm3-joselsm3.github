@@ -5,10 +5,12 @@ body {
     align-items: flex-start;
     font-family: 'Poppins';
     overflow-y: auto;
+    padding-bottom: 7rem;
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     margin: 0;
     color: #00694F;
 }
@@ -17,9 +19,18 @@ h1 {
     width: 100px;
 }
 
-.escolas {
+.info_home {
     display: flex;
     flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 3rem;
+}
+
+.escolas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -84,17 +95,42 @@ footer {
 }
 
 .post {
+    width: 90%;
     background-color: #F2F2F2;
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: 30px;
     margin-bottom: 20px;
 }
 
-.chat-container {
+.userinfo {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    align-items: center;
+}
+
+.username {
+    color: #00694F;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.content {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-family: 'Merriweather';
+}
+
+.titulo_aula {
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+.chat-container {
+    width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .chat-header {
@@ -125,11 +161,13 @@ footer {
 
 .mensagem_propria, .mensagem_outro {
     padding: 0.8rem;
-    font-size: 0.875rem; /* Texto relativo */
-    border-radius: 0.5rem; /* Bordas arredondadas com rem */
-    max-width: 70%;
+    font-size: 0.875rem;
+    font-family: 'Merriweather';
+    border-radius: 0.5rem;
+    max-width: 60%;
     margin-bottom: 0.75rem;
     word-wrap: break-word;
+    display: flex;
 }
 
 .mensagem_propria {
@@ -145,13 +183,30 @@ footer {
 .pergunta {
     background-color: #f2f2f2;
     border-radius: 10px;
+    width: 100%;
     padding: 1rem;
     margin: 12px 0;
+}
+
+.alternativa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .formatos div {
     display: flex;
     flex-direction: column;
+}
+
+.formatos div a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0.2rem 0;
 }
 
 .formatos h1 {
@@ -166,6 +221,7 @@ footer {
     height: 8rem;
     padding: 1rem;
     background-color: #F2F2F2;
+    margin: 0.7rem 0;
 }
 
 .filtro_formatos {
@@ -173,6 +229,9 @@ footer {
     height: 2rem;
     padding: 0.2rem;
     border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .filtro_formatos button {
@@ -222,7 +281,7 @@ footer {
     margin: 1rem 0;
 }
 
-.criar_buttons button {
+.criar_buttons a {
     width: 7rem;
     height: 3rem;
     margin: 0 0.5rem;
@@ -246,12 +305,16 @@ footer {
 .novo_button {
     width: 100%;
     height: 3rem;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     border-radius: 20px;
     border: none;
-    color: #00694F;
+    color: #23CAA1;
     font-weight: 600;
     font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .digitar {
@@ -279,11 +342,12 @@ footer {
     margin-left: 5px;
 }
 
-.input {
+input {
     width: 100%;
     border-radius: 20px;
     border: 2px solid #F2F2F2;
-    padding: 10px;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
 }
 
 .icon {
@@ -297,4 +361,60 @@ footer {
     width: 3.2rem;
     height: 3.2rem;
     margin: 0 1rem;
+}
+
+.icon_formatos {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+
+.titulo_tela {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_tela h1 {
+ font-weight: 600;
+}
+
+.tarefas ul li{
+    margin: 0.2rem 0 0.2rem 1rem;
+}
+
+.escolas {
+    margin-top: 1rem;
+}
+
+.escolas p {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.button_verde {
+    background-color: #00694F;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+}
+
+.button_verde a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.conteudos {
+    margin-top: 0.5rem;
 }

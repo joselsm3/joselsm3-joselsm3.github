@@ -11,8 +11,8 @@
         <title>HelpTeacher | Novo Quizz</title>
     </head>
 <body>
-    <div>
-        <a href="/criar.html"><img src="/img/voltar.svg" class="icon" alt="voltar" srcset=""></a>
+    <div class="titulo_tela">
+        <a href="/criar.html"><img src="/img/voltar.svg" class="icon" alt="voltar"></a>
         <h1>Novo Quizz</h1>
     </div>
     <div class="info">
@@ -26,26 +26,32 @@
                 <div class="pergunta">
                     <div class="form_group">
                         <label>Pergunta 1:</label>
-                        <input type="text" name="titulo" required>?
+                        <input type="text" name="titulo" required>
                     </div>
                     <ul class="form_group">
                         <li>
                             <button class="remove_reference">-</button>
-                            <label>A:</label>
-                            <input type="text" name="titulo" required>
+                            <div class="alternativa">
+                                <label>A:</label>
+                                <input type="text" name="titulo" required>
+                            </div>
                         </li>
                         <li>
                             <button class="remove_reference">-</button>
-                            <label>B:</label>
-                            <input type="text" name="titulo" required>
+                            <div class="alternativa">
+                                <label>B:</label>
+                                <input type="text" name="titulo" required>
+                            </div>
                         </li>
                         <li>
                             <button class="remove_reference">-</button>
-                            <label>C:</label>
-                            <input type="text" name="titulo" required>
+                            <div class="alternativa">
+                                <label>C:</label>
+                                <input type="text" name="titulo" required>
+                            </div>
                         </li>
                     </ul>
-                    <input type="range" > Segundos
+                    
                     <div class="resposta_certa">
                         <label>Correta:</label>
                         <select class="opcoes" name="opcoes">
@@ -59,26 +65,32 @@
                 <div class="pergunta">
                     <div class="form_group">
                         <label>Pergunta 2:</label>
-                        <input type="text" name="titulo" required>?
+                        <input type="text" name="titulo" required>
                     </div>
                     <ul class="form_group">
                         <li>
                             <button class="remove_reference">-</button>
-                            <label>A:</label>
-                            <input type="text" name="titulo" required>
+                            <div class="alternativa">
+                                <label>A:</label>
+                                <input type="text" name="titulo" required>
+                            </div>
                         </li>
                         <li>
                             <button class="remove_reference">-</button>
-                            <label>B:</label>
-                            <input type="text" name="titulo" required>
+                            <div class="alternativa">
+                                <label>B:</label>
+                                <input type="text" name="titulo" required>
+                            </div>
                         </li>
                         <li>
                             <button class="remove_reference">-</button>
-                            <label>C:</label>
-                            <input type="text" name="titulo" required>
+                            <div class="alternativa">
+                                <label>C:</label>
+                                <input type="text" name="titulo" required>
+                            </div>
                         </li>
                     </ul>
-                    <input type="range" > Segundos
+                    
                     <div class="resposta_certa">
                         <label>Correta:</label>
                         <select class="opcoes" name="opcoes">
@@ -90,8 +102,8 @@
                 </div>
             </div>
 
-            <button class="add_pergunta"><img src="/img/plus.svg" alt="+" class="icon" srcset=""></button>
-            <a href="/novo_concluido.html"><img src="/img/concluir.svg" alt="concluir" class="icon" srcset=""></a>
+            <button class="add_pergunta"><img src="/img/plus.svg" alt="+" class="icon"></button>
+            <a href="/novo_concluido.html"><img src="/img/concluir.svg" alt="concluir" class="icon"></a>
         </form>
     </div>
 
