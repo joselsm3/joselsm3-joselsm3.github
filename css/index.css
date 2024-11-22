@@ -345,6 +345,7 @@ input {
     border: 2px solid #F2F2F2;
     padding: 0.5rem;
     margin: 0.5rem 0;
+    font-size: 17px; 
 }
 
 .icon {
