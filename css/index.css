@@ -181,7 +181,7 @@ footer {
     background-color: #f2f2f2;
     border-radius: 10px;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     margin: 12px 0;
 }
 
@@ -276,6 +276,11 @@ footer {
 .criar_buttons {
     display: flex;
     margin: 1rem 0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
 }
 
 .criar_buttons a {
