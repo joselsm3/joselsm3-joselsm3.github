@@ -17,7 +17,7 @@ posts.forEach((post) => {
             localStorage.setItem('username', username.innerHTML);
             
             // Redirecione o usuário para /mensagem.html
-            window.location.href = '/joselsm3-joselsm3.github.io/mensagem.html';
+            window.location.href = 'mensagem.html';
 
             username_mensagem = document.querySelector('username_mensagem')
             username_mensagem.innerHTML = localStorage.getItem('username')
